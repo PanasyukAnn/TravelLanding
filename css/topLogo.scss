@@ -1,0 +1,63 @@
+html {
+
+  body {
+
+    background: linear-gradient(to top, #696969, #8B7E66, #838B8B, #8B7D7B, #CDB7B5, #838B8B);
+
+        .container {
+        width: 900px;
+        margin: 0 auto;
+        padding: 0;
+
+        .topLogo {
+          background-color: transparent;
+          padding: 50px;
+          width: 36%;
+          height: 170px;
+          border-radius: 5px;
+          border: 7px double rgba(30,10,50,0.99);
+          margin: auto;
+
+          h3 {
+            margin: 0 0 20px;
+            text-align: center;
+            font-size: 18px;
+            color: rgba(8,8,27,0.9);
+            font-family: 'Wendy One', sans-serif;
+          }
+          hr {
+            width: 170px;
+          }
+          h1 {
+            color: rgba(8,8,27,0.7);
+            font-family: 'Wendy One', sans-serif;
+            font-size: 50px;
+            padding: 20px 0;
+            text-align: center;
+          }
+          p {
+            color: rgba(30,10,50,0.9);
+            font-family: 'Wendy One', sans-serif;
+            text-align: center;
+          }
+        }
+      }
+
+  }
+}
+.dv {
+  padding: 130px 0 345px 0;
+  height: 100%;
+  width: 100%;
+  background: url("../img/pexels-photo-65035-min.jpeg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+   .topLogo {
+     h3 {
+       color: #ffffff;
+     }
+   }
+}

@@ -1,0 +1,86 @@
+.contact {
+  position: relative;
+  padding: 40px 50px;
+  margin: -100px 0 180px;
+  background: #1C1C1C;
+  height: 242px;
+  .pictures {
+    float: left;
+    //border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    background: url("../img/pexels-photo-377908.jpeg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -40px;
+    left: 35px;
+  }
+  .container-right {
+    width: 400px;
+    float: right;
+    //border: 2px solid red;
+    h2 {
+      //text-align: end;
+      color: #EEE5DE;
+      font-size: 30px;
+      font-family: 'Wendy One', sans-serif;
+      margin: 0 0 10px 16px;
+    }
+    hr {
+      border: none;
+      height: 3px;
+      color: rgba(8, 8, 27, 0.7);
+      background-color: #CDC5BF;
+      width: 110px;
+      text-align: left; /* для ie */
+      margin: 0 auto 15px 18px; /* для остальных браузеров */
+    }
+    .container-flex {
+      margin: 0 -35px 0 0;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;}
+    form {
+      input {
+        color: #ffffff;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid rgba(8, 8, 27, 0.7);
+        padding: 0 0 10px 0;
+        margin-top: 30px;
+        font-family: 'Wendy One', sans-serif;
+        font-size: 14px;
+        width: 149px;
+      }
+    }
+    #name {
+      margin: 30px 52px 0 19px;
+    }
+
+    input:focus {
+      outline: none;
+      //border-bottom: 2px solid red;
+    }
+    .d1 {
+      width: 350px;
+      margin-left: 19px;
+    }
+    //input:focus {
+    //  border: transparent;
+    //}
+
+
+    button {
+      padding: 10px;
+      background-color: transparent;
+      border: 2px solid #CDC5BF;
+      display: inline-block;
+      margin: 25px 0 0 19px;
+      color: #EEE5DE;
+      text-decoration: none;
+      font-family: 'Wendy One', sans-serif;
+      font-size: 16px;
+    }
+  }
+}

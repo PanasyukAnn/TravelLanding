@@ -1,0 +1,50 @@
+.about {
+  position: relative;
+  padding: 40px 50px;
+  margin: -112px 0 0 0;
+  //margin-top: 180px;
+  //background: rgba(25,12,8,0.9);
+  background: #1C1C1C;
+  height: auto;
+  h2 {
+    color: #EEE5DE;
+    font-size: 30px;
+    font-family: 'Wendy One', sans-serif;
+    margin: 0 0 10px 0;
+  }
+  hr {
+    border: none;
+    height: 3px;
+    color: rgba(8,8,27,0.7);
+    background-color: #CDC5BF;
+    width: 135px;
+    text-align: left; /* для ie */
+    margin: 0 auto 15px 0; /* для остальных браузеров */
+  }
+  p {
+    color: #ffffff;
+    width: 400px;
+    padding: 0 0 15px 0;
+  }
+  span {
+    padding: 10px 15px;
+    border: 2px solid #CDC5BF;
+    display: inline-block;
+    a {
+      color: #EEE5DE;
+      text-decoration: none;
+      font-family: 'Wendy One', sans-serif;
+    }
+  }
+  .pictures {
+    background: url("../img/211685_original.jpg") no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 400px;
+    float: right;
+    position: absolute;
+    top: -40px;
+    right: 0;
+  }
+
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel</title>
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://use.fontawesome.com/69be3531f0.css" media="all" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="dv">
+        <div class="container">
+            <div class="topLogo">
+                <h3>Lorem ipsum</h3>
+                <hr>
+                <h1>TRAVEL</h1>
+                <p>THE INSPIRATIONAL ADVENTURES AROUND THE WORLD</p>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="about">
+        <h2>About me</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <span><a href="#">Button</a></span>
+        <div class="pictures"></div>
+    </div>
+</div>
+<div class="container">
+    <div class="articles">
+        <h2>Lastest articles</h2>
+        <hr>
+        <div class="container-flex">
+            <figure>
+                <img src="img/pexels-photo-279110.jpeg">
+                <h3>Lorem Ipsum Dolor</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                <a href="#">Read more<img src="img/right_arrow.png"></a>
+            </figure>
+            <figure class="dd">
+                <img src="img/gallery/pexels-photo-403883-min.jpeg">
+                <h3>Lorem Ipsum Dolor</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                <a href="#">Read more<img src="img/right_arrow.png"></a>
+            </figure>
+            <figure>
+                <img src="img/pexels-photo-404149.jpeg">
+                <h3>Lorem Ipsum Dolor</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                <a href="#">Read more<img src="img/right_arrow.png"></a>
+            </figure>
+        </div>
+    </div>
+</div>
+<div class="dg">
+    <div class="container">
+        <div class="gallery">
+            <h2>Gallery</h2>
+            <hr>
+            <div class="masonry">
+                <div class="container" id="container">
+                    <div id="card">
+                        <figure class="back"></figure>
+                        <figure class="front"></figure>
+                    </div>
+                </div>
+
+                <div class="item"><a tabindex="1"><img id="img1" src="img/gallery/pexels-photo-97107.jpeg"></a></div>
+                <div class="item"><a tabindex="2"><img id="img2" src="img/gallery/pexels-photo-196621.jpeg"></a></div>
+                <div class="item"><a tabindex="3"><img id="img3" src="img/gallery/pexels-photo-111218.jpeg"></a></div>
+                <div class="item"><a tabindex="4"><img id="img4" src="img/gallery/pexels-photo-235648.jpeg"></a></div>
+                <div class="item"><a tabindex="5"><img id="img5" src="img/gallery/pexels-photo-201976.jpeg"></a></div>
+                <div class="item"><a tabindex="6"><img id="img6" src="img/gallery/pexels-photo-266894.jpeg"></a></div>
+                <div class="item"><a tabindex="7"><img id="img7" src="img/gallery/pexels-photo-299313.jpeg"></a></div>
+                <div class="item"><a tabindex="8"><img id="img8" src="img/gallery/pexels-photo-198128.jpeg"></a></div>
+                <div class="item"><a tabindex="9"><img id="img9" src="img/gallery/highway-night-photograph-lights-night-52734%20(1).jpeg"></a></div>
+                <div class="item"><a tabindex="10"><img id="img10" src="img/gallery/pexels-photo-374870.jpeg"></a></div>
+                <div class="item"><a tabindex="11"><img id="img11" src="img/gallery/pexels-photo-382683.jpeg"></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="contact">
+        <div class="pictures"></div>
+        <div class="container-right">
+            <h2>Contact</h2>
+            <hr>
+            <form action="send.php" id="form" method="POST">
+                <div class="container-flex" >
+                    <input id="name" name="name" class="validate" type="text" required="" placeholder="Your name">
+                    <input id="email" name="email" class="validate" type="email" required="" placeholder="Your email">
+                </div>
+                <input id="message" name="message" type="text" class="d1 text" required="" placeholder="Your messages">
+                <button id="send" class="feedback" type="submit" name="action">Send message</button>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="socialNetwork">
+            <div class="container-flex">
+                <a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/contact.js"></script>
+
+</body>
+</html>

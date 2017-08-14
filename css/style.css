@@ -1,0 +1,265 @@
+@charset "UTF-8";
+html body {
+  background: linear-gradient(to top, #696969, #8B7E66, #838B8B, #8B7D7B, #CDB7B5, #838B8B); }
+  html body .container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0; }
+    html body .container .topLogo {
+      background-color: transparent;
+      padding: 50px;
+      width: 36%;
+      height: 170px;
+      border-radius: 5px;
+      border: 7px double rgba(30, 10, 50, 0.99);
+      margin: auto; }
+      html body .container .topLogo h3 {
+        margin: 0 0 20px;
+        text-align: center;
+        font-size: 18px;
+        color: rgba(8, 8, 27, 0.9);
+        font-family: 'Wendy One', sans-serif; }
+      html body .container .topLogo hr {
+        width: 170px; }
+      html body .container .topLogo h1 {
+        color: rgba(8, 8, 27, 0.7);
+        font-family: 'Wendy One', sans-serif;
+        font-size: 50px;
+        padding: 20px 0;
+        text-align: center; }
+      html body .container .topLogo p {
+        color: rgba(30, 10, 50, 0.9);
+        font-family: 'Wendy One', sans-serif;
+        text-align: center; }
+
+.dv {
+  padding: 130px 0 345px 0;
+  height: 100%;
+  width: 100%;
+  background: url("../img/pexels-photo-65035-min.jpeg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+@media (max-width: 992px) {
+  .topLogo h3 {
+    color: #ffffff; } }
+.about {
+  position: relative;
+  padding: 40px 50px;
+  margin: -112px 0 0 0;
+  background: #1C1C1C;
+  height: auto; }
+  .about h2 {
+    color: #EEE5DE;
+    font-size: 30px;
+    font-family: 'Wendy One', sans-serif;
+    margin: 0 0 10px 0; }
+  .about hr {
+    border: none;
+    height: 3px;
+    color: rgba(8, 8, 27, 0.7);
+    background-color: #CDC5BF;
+    width: 135px;
+    text-align: left;
+    /* для ie */
+    margin: 0 auto 15px 0;
+    /* для остальных браузеров */ }
+  .about p {
+    color: #ffffff;
+    width: 400px;
+    padding: 0 0 15px 0; }
+  .about span {
+    padding: 10px 15px;
+    border: 2px solid #CDC5BF;
+    display: inline-block; }
+    .about span a {
+      color: #EEE5DE;
+      text-decoration: none;
+      font-family: 'Wendy One', sans-serif; }
+  .about .pictures {
+    background: url("../img/211685_original.jpg") no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 400px;
+    float: right;
+    position: absolute;
+    top: -40px;
+    right: 0; }
+
+.articles {
+  margin: 200px 0 25px;
+  background-color: transparent;
+  height: 600px; }
+  .articles h2 {
+    text-align: center;
+    color: rgba(8, 8, 27, 0.7);
+    font-size: 30px;
+    font-family: 'Wendy One', sans-serif;
+    margin: 0 0 10px 0; }
+  .articles hr {
+    border: none;
+    height: 3px;
+    color: rgba(8, 8, 27, 0.7);
+    background-color: rgba(8, 8, 27, 0.7);
+    width: 210px; }
+  .articles .container-flex {
+    margin: 0 -35px 0 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .articles .container-flex figure {
+      width: 280px;
+      height: 230px; }
+      .articles .container-flex figure > img {
+        margin: 50px 0 0 0;
+        width: 250px;
+        height: 220px;
+        box-shadow: -15px -15px 5px #1C1C1C; }
+      .articles .container-flex figure h3 {
+        font-family: 'Wendy One', sans-serif;
+        font-size: 20px;
+        color: rgba(8, 8, 27, 0.7);
+        padding: 15px 0 3px 0; }
+      .articles .container-flex figure hr {
+        border: none;
+        height: 3px;
+        color: rgba(8, 8, 27, 0.7);
+        background-color: rgba(8, 8, 27, 0.7);
+        width: 129px;
+        text-align: left;
+        /* для ie */
+        margin: 0 auto 15px 0;
+        /* для остальных браузеров */ }
+      .articles .container-flex figure p {
+        padding: 0 0 15px 0; }
+      .articles .container-flex figure a {
+        text-decoration: none;
+        color: rgba(8, 8, 27, 0.7);
+        font-family: 'Wendy One', sans-serif;
+        font-size: 14px; }
+        .articles .container-flex figure a > img {
+          height: 15px;
+          width: 15px;
+          margin: 0 0 -3px 6px; }
+    .articles .container-flex .dd {
+      padding: 80px 0 0 0; }
+
+.contact {
+  position: relative;
+  padding: 40px 50px;
+  margin: -100px 0 180px;
+  background: #1C1C1C;
+  height: 242px; }
+  .contact .pictures {
+    float: left;
+    height: 400px;
+    width: 400px;
+    background: url("../img/pexels-photo-377908.jpeg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -40px;
+    left: 35px; }
+  .contact .container-right {
+    width: 400px;
+    float: right; }
+    .contact .container-right h2 {
+      color: #EEE5DE;
+      font-size: 30px;
+      font-family: 'Wendy One', sans-serif;
+      margin: 0 0 10px 16px; }
+    .contact .container-right hr {
+      border: none;
+      height: 3px;
+      color: rgba(8, 8, 27, 0.7);
+      background-color: #CDC5BF;
+      width: 110px;
+      text-align: left;
+      /* для ie */
+      margin: 0 auto 15px 18px;
+      /* для остальных браузеров */ }
+    .contact .container-right .container-flex {
+      margin: 0 -35px 0 0;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start; }
+    .contact .container-right form input {
+      color: #ffffff;
+      border: none;
+      background-color: transparent;
+      border-bottom: 2px solid rgba(8, 8, 27, 0.7);
+      padding: 0 0 10px 0;
+      margin-top: 30px;
+      font-family: 'Wendy One', sans-serif;
+      font-size: 14px;
+      width: 149px; }
+    .contact .container-right #name {
+      margin: 30px 52px 0 19px; }
+    .contact .container-right input:focus {
+      outline: none; }
+    .contact .container-right .d1 {
+      width: 350px;
+      margin-left: 19px; }
+    .contact .container-right button {
+      padding: 10px;
+      background-color: transparent;
+      border: 2px solid #CDC5BF;
+      display: inline-block;
+      margin: 25px 0 0 19px;
+      color: #EEE5DE;
+      text-decoration: none;
+      font-family: 'Wendy One', sans-serif;
+      font-size: 16px; }
+
+.gallery h2 {
+  text-align: center;
+  color: rgba(8, 8, 27, 0.7);
+  font-size: 30px;
+  font-family: 'Wendy One', sans-serif;
+  margin: 0 0 10px 0; }
+.gallery hr {
+  border: none;
+  height: 3px;
+  color: rgba(8, 8, 27, 0.7);
+  background-color: rgba(8, 8, 27, 0.7);
+  width: 102px; }
+.gallery .masonry {
+  margin-top: 50px;
+  column-count: 4;
+  column-gap: 1em;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em; }
+  .gallery .masonry .item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1em; }
+    .gallery .masonry .item a {
+      outline: none; }
+
+.dg {
+  padding: 120px 0 325px 0;
+  height: 100%;
+  width: 100%;
+  background: url("../img/road-mountains-nature-street-min.jpeg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+footer .container .socialNetwork .container-flex {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  footer .container .socialNetwork .container-flex a {
+    color: #000; }
+    footer .container .socialNetwork .container-flex a i {
+      padding: 5px;
+      margin: 0 15px 50px;
+      border: 2px solid;
+      border-radius: 3px; }
+
+/*# sourceMappingURL=style.css.map */
